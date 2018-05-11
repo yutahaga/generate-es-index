@@ -1,0 +1,34 @@
+{
+  "name": "@yutahaga/generate-es-index",
+  "description": "指定した Glob パターンに従って索引ファイルを生成します。",
+  "version": "0.1.0",
+  "bin": {
+    "generate-es-index": "./bin/generate-es-index.js"
+  },
+  "main": "lib/generate-es-index.js",
+  "engines": {
+    "node": ">=7.6.0"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yutahaga/generate-es-index.git"
+  },
+  "scripts": {
+    "test": "node bin/generate-es-index.js"
+  },
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "find-package-json": "^1.1.0",
+    "fs-extra": "^6.0.0",
+    "glob": "^7.1.2",
+    "lodash.camelcase": "^4.3.0",
+    "upath": "^1.0.5",
+    "yargs": "^11.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-plugin-mysticatea": "^5.0.0-beta.5",
+    "eslint-plugin-node": "^6.0.1"
+  }
+}

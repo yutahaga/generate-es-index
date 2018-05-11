@@ -1,0 +1,9 @@
+root: true
+extends:
+  - plugin:mysticatea/es2018
+  - plugin:mysticatea/+node
+rules:
+  mysticatea/prettier: "off"
+  comma-dangle: "error"
+  func-style: "off"
+  require-jsdoc: "warn"
