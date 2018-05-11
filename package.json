@@ -1,7 +1,7 @@
 {
   "name": "@yutahaga/generate-es-index",
   "description": "指定した Glob パターンに従って索引ファイルを生成します。",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "bin": {
     "generate-es-index": "./bin/generate-es-index.js"
   },
