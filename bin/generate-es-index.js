@@ -23,6 +23,8 @@ const argv = yargs
   .alias('c', 'cwd')
   .alias('v', 'verbose').argv;
 
+argv.cwd = argv.cwd || process.cwd();
+
 const root =
   (path.isAbsolute(argv.cwd)
     ? argv.cwd
