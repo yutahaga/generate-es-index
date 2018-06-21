@@ -19,7 +19,8 @@ node node_modules/.bin/generate-es-index.js -v -i src/components/**/*.vue -o src
 ```json
 {
   "scripts": {
-    "gji": "generate-es-index -v -s sass -p src/styles"
+    "index":
+      "generate-es-index -v -i src/components/**/*.vue -o src/components/index.ts"
   }
 }
 ```
@@ -27,7 +28,7 @@ node node_modules/.bin/generate-es-index.js -v -i src/components/**/*.vue -o src
 のように記載し、書きのように実行してください。
 
 ```sh
-yarn gji
+yarn index
 ```
 
 ### 出力例
